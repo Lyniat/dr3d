@@ -1,0 +1,6 @@
+devid=lyniat
+devtitle=lyniat
+gameid=dr3d
+gametitle=dr3d
+version=1.0
+icon=sprites/icon.png
