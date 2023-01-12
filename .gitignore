@@ -1,7 +1,5 @@
 /native
 /cmake-build-*
-/third-party
-!/third-party/CMakeLists.txt
 *.dylib
 
 .DS_Store
