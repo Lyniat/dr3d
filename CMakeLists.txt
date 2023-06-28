@@ -30,5 +30,5 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 if (APPLE)
     add_custom_command(TARGET dr3d
             POST_BUILD
-            COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:dr3d> ../native/macos)
+            COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:dr3d> ../native/macos/ext.dylib)
 endif()
